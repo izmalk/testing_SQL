@@ -37,7 +37,7 @@ def connect2db(db): #various actions with selected DB
                 action = int(input())
                 if action == 1:
                     print("Executing show table command...")
-                    query = "SELECT * FROM users"
+                    query = "SELECT * FROM users ORDER BY id"
                     cursor.execute(query)
                     records = cursor.fetchall()
                     for record in records:
