@@ -1,4 +1,4 @@
-# testing_SQL
+# Personal SQL Testing lab
 
 This is a test laboratory to sharpen some minor skills for SQL. Nothing special.
 
